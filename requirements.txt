@@ -1,9 +1,0 @@
-streamlit>=1.31.1
-# Removing streamlit-webrtc as we're using Web Speech API instead
-# Removing numpy as it's a dependency of streamlit
-# Removing openai-whisper as we're using Web Speech API
-# Removing soundfile and av as they're not needed anymore
-# Removing typing-extensions as it's a dependency
-python-dotenv>=1.0.0
-setuptools>=65.5.0  # Ensuring build tools are available
-wheel>=0.40.0  # Helps with package installations
